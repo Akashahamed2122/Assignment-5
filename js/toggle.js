@@ -19,9 +19,17 @@ document.querySelector('#btn-1')
             
             document.querySelector('#decriss').innerText = convertDecress;
             document.querySelector('#incrise').innerText = convertIncrise;
+            
+            
 
             
         }
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
+        }
+        
+      
 
         // histry
         let histry = document.querySelector('#transectin-histry')
@@ -62,6 +70,12 @@ document.querySelector('#btn-2')
             document.querySelector('#incrise').innerText = convertIncrise;
 
             
+        }
+
+
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
         }
 
         // histry
@@ -105,6 +119,10 @@ document.querySelector('#btn-3')
 
             
         }
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
+        }
 
         // histry
         let histry = document.querySelector('#transectin-histry')
@@ -146,6 +164,10 @@ document.querySelector('#btn-4')
             document.querySelector('#incrise').innerText = convertIncrise;
 
             
+        }
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
         }
 
         // histry
@@ -190,6 +212,10 @@ document.querySelector('#btn-5')
 
             
         }
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
+        }
 
         // histry
         let histry = document.querySelector('#transectin-histry')
@@ -233,6 +259,10 @@ document.querySelector('#btn-6')
 
             
         }
+        if(convertDecress===0){
+            alert('Congrates you have complete the current task')
+
+        }
 
         // histry
         let histry = document.querySelector('#transectin-histry')
@@ -245,7 +275,7 @@ document.querySelector('#btn-6')
         histry.appendChild(div)
 
     
-    alert('update two kk')
+
         events.target.setAttribute('disabled' , 'true')
         
 
