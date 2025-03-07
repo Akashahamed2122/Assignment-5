@@ -39,18 +39,18 @@
     </section>
     <!-- banner section -->
      <section class="mt-8">
-     <div class="container mx-auto   bg-white">
+     <div class="container mx-auto   ">
         <!-- main grid -->
-        <div class="grid grid-cols-1 md:grid-cols-[75%_25%] gap-4">
+        <div class="grid grid-cols-1 md:grid-cols-[75%_25%] gap-4 ">
             <!-- 90% -->
             <div>
                 <!-- frist top -->
-                 <div class="grid grid-cols-4 p-8 gap-8">
-                    <div class="flex gap-x-6  justify-center items-center p-5 bg-[#F4F7FF]">
+                 <div class="grid grid-cols-1 md:grid-cols-4 p-8 gap-8 bg-white">
+                    <div class="flex gap-x-6  justify-center items-center p-5 bg-[#F4F7FF] hidden md:block">
                         <div>
                             <img class="w-100%" src="assets/checkbox.png" alt="">
                         </div>
-                        <div>
+                        <div class="">
                             <p>Task Assigned </p>
                             <h1  class="font-bold text-3xl"><span id="decriss">06</span></h1>
                         </div>
@@ -60,12 +60,12 @@
                         <h3 class="font-medium text-2xl text-white">Discover Something <br> New Today!</h3>
 
                     </div>
-                    <div class="flex bg-[#F4F7FF] justify-center items-center gap-6 rounded-md">
-                        <div>
+                    <div class="flex bg-[#F4F7FF] justify-center items-center gap-6 rounded-md ">
+                        <div class="hidden md:block">
                             <img src="assets/calender.png" alt="">
                         </div>
-                        <div>
-                            <div>
+                        <div class="hidden md:block">
+                            <div class="hidden md:block">
                                 <h2 id="current-date" class="font-medium text-l"></h2>
                         
                             </div>
@@ -75,7 +75,7 @@
 
                  </div>
                  <!-- main part div -->
-                  <div class="grid grid-cols-3 p-8 gap-8">
+                  <div class="grid grid-cols-1  md:grid-cols-3 p-8 gap-8 bg-white">
                     <!-- child 1-->
                     <div class=" bg-[#F4F7FF] p-8">
                         <button class="bg-white p-2 text-base mb-4">ShopEase</button>
@@ -226,8 +226,7 @@
 
             </div>
             <!-- 10% -->
-            <div id="bg-color-2 " class="pl-8 bg-[#F4F7FF] ">
-               <div class="min-h-screen bg-white p-8 ">
+            <div class="min-h-screen bg-white p-8 ">
                 <div class="flex justify-center items-center gap-4">
                     <img src="assets/activity.png" alt="">
                     <p class="font-medium text-xl">Activity Log</p>
@@ -244,8 +243,6 @@
 
                 </div>
                </div>
-               
-            </div>
 
         </div>
 
